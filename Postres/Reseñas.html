@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reseñas</title>
+	<style type="text/css">
+		/*Le damos estilo a nuestra pagina*/
+		*{
+			margin: 0 auto;
+		}
+
+		nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 25px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+		nav{
+			
+			padding: 2rem;
+		}
+
+		body{
+			font-family: Arial;
+			font-size: 30px;
+			background-color: #DED7C8;
+		}
+
+		a{
+			text-decoration: none;
+			font-family: Arial;
+			padding: 1rem;
+			font-size: 22px;
+		}
+
+		#contenedor{
+			width: 45%;
+			padding: 2rem;
+			background-color: white;
+			border-radius: 20px;
+		}
+
+		#enviar{
+			padding: 1rem;
+			background-color: #F08080;
+			color: white;
+			font-size: 20px;
+			border-radius: 20px;
+		}
+
+		.cancelar{
+			padding: 1rem;
+			background-color: #F08080;
+			font-size: 20px;
+			border-radius: 20px;
+			color: white;
+		}
+
+		.EntradaDatos{
+			width: 520px;
+			padding: 0.5rem;
+		}
+
+		}
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #5bf360;
+        }
+
+
+		</style>
+
+
+</head>
+<body>
+
+	<!--Menu de la pagina-->
+	<table width="100%" style="background-color:white;">
+		<tr>
+			<td colspan="3">
+				<nav style="background-color: white;">
+
+					<a href="Proyecto.html" style="color: #E64E7C; font-family: Didot; font-size: 35px;"><i>Bienvenid@s</i></a>
+
+					<a href="Recetas.html" style="color: #E64E7C;">Recetas</a>
+					<a href="Sobre nosotros.html" style="color: #E64E7C;">Sobre Nosotros</a>
+					<a href="#" style="color: #E64E7C;">Reseñas</a>
+
+
+				</td>
+
+					<td><img src="coso/cakee.png" width="145px" height="150px"></td>
+
+			<td><p style="font-family: Lobster, cursive;">Magic Desserts</p></td>
+
+					
+				</nav>
+		</tr>
+
+		</table>
+
+		<br><br><br>
+
+		<div id="contenedor">
+		<h3 align="center">Reseñas de nuestro sitio web</h3><br>
+	
+	<form>
+		<label for="CodCliente">Correo Electronico</label>
+		<input type="email" name="CodCliente" value="" placeholder="Ingrese su correo electronico" class="EntradaDatos">
+
+		<br><br>
+
+		<label for="Nombre">Deja tu comentario</label>
+		<input type="text" name="Nombre" value="" placeholder="Queremos conocer tu opinion" class="EntradaDatos">
+
+		<br><br>
+
+		<div align="center">
+		<input type="submit" name="Enviar" id="enviar" value="Enviar">
+
+		<button class="cancelar">Cancelar</button>
+		</div>
+		</div>
+
+		<br><br>
+
+		<hr width="15%" align="center" color="#E64E7C" size="8px">
+	<center>
+	<p>Encuentranos en redes sociales como</p> <b>@magicdesserts.sm
+	</b>
+	</center>
+
+	
+
+</body>
+</html>
